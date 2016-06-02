@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description                 = "A simple gem to colorize terminal output"
   s.authors                     = ["Paul Haddad"]
   s.email                       = "paulh16@gmail.com"
-  s.files                       = ["lib/colorizr.rb"]
+  s.files                       = ["lib/colorizr.rb", "lib/colorizr/string.rb"]
   s.homepage                    = "http://udacity.com"
   s.license                     = "MIT"
   s.add_development_dependency "rspec", ["~> 3.4"]

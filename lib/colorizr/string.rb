@@ -1,9 +1,6 @@
 require "./lib/colorizr"
-require "pry"
 
 class String
-  Colorizr.create_colors
-
   def self.colors
     Colorizr::COLOR_CODE_MAP.keys
   end

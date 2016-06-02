@@ -1,3 +1,5 @@
+require "./lib/colorizr/string"
+
 class Colorizr
   COLOR_CODE_MAP = {
     red: 31,

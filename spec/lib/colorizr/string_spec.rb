@@ -1,5 +1,5 @@
-require "./lib/string"
 require "./lib/colorizr"
+require "./lib/colorizr/string"
 
 describe String do
   describe ".colors" do
