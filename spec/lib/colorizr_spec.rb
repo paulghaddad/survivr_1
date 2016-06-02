@@ -3,8 +3,6 @@ require "./lib/colorizr"
 describe Colorizr do
   describe ".create_colors" do
     it "dynamically creates color methods" do
-      Colorizr.create_colors
-
       expect(String.instance_methods).to include(:red)
       expect(String.instance_methods).to include(:green)
       expect(String.instance_methods).to include(:yellow)
