@@ -1,8 +1,8 @@
-require "./lib/colorizr"
+require "./lib/colorizr/terminal_colors"
 
 class String
   def self.colors
-    Colorizr::COLOR_CODE_MAP.keys
+    TerminalColors::COLOR_CODE_MAP.keys
   end
 
   def self.sample_colors
